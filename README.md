@@ -1,8 +1,24 @@
-# React + Vite
+# Advanced Survey Form
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Objective
+Build an advanced survey form with complex conditional fields, dynamic sections, and integration with an external API for data fetching.
 
-Currently, two official plugins are available:
+## Form Type
+Survey Form with Dependent Questions and Dynamic Sections
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- Dynamic fields based on user input.
+- Conditional logic to show/hide fields.
+- Form validation for required fields.
+- Integration with an external API for additional questions.
+
+## Technologies
+- React
+- React Hooks (useState, useEffect, useContext)
+- Custom hooks for form validation and management
+
+## How to Run
+1. Clone the repository.
+2. Install dependencies with npm install.
+3. Run the project with npm start.
+4. Access the form in your browser at http://localhost:3000.
